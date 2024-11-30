@@ -1,6 +1,6 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
-import { img } from "./img/data";
+import {img} from "./Img/data.js"
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // this grap from react-responsive-carousel
 import classes from "./Carousel.module.css";
 
