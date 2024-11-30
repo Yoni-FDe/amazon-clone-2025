@@ -1,0 +1,10 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+  /* this pass as var */
+:root{
+    --primary-color: #6bfe69;
+    --primary-shade: #d49644;
+
+}

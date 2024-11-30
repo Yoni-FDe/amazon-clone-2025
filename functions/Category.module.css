@@ -1,0 +1,58 @@
+ .category {
+  height: 250px;
+  width: px;
+  gap: 10px;
+  background-color:white;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+
+} 
+
+
+ .category img {
+  width:250px;
+  object-fit: contain;
+  max-height: 150px;
+  padding: 10px 10px;
+
+} 
+  
+.category a {
+  text-decoration: none;
+  color: rgb(20, 20, 20);
+} 
+
+
+ 
+.category h2,
+.category p {
+  padding:3px;
+  margin-left: 15px;
+} 
+
+
+
+
+.category p {
+  font-size: 10px;
+  font-weight: bold;
+  color: #18dd0e;
+  text-align: center;
+  padding-top: 15px;
+}
+
+/* This for catagory */
+ .category__container {
+  position: relative;
+  margin-top: -20%;
+  display: grid; 
+   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+   max-width:1600px; 
+   gap:20px;
+   place-items: center; 
+   justify-content: space-between;
+} 
+
+
+
+
+
